@@ -5,8 +5,8 @@ const androidAppPath = projectPath.join(
 );
 
 exports.config ={
- user: 'mailqatest_cXsLbu'|| process.env.BROWSERSTACK_USERNAME,
- keys: 'TEPExGhJQfYqSq4qteYf'|| process.env.BROWSERSTACK_ACCESS_KEY,
+ user: process.env.BROWSERSTACK_USERNAME,
+ keys:  process.env.BROWSERSTACK_ACCESS_KEY,
 
  runner: 'local',
 
